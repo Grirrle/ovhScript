@@ -21,14 +21,3 @@ ovh.request('POST', '/auth/credential', {
   }
 
 });
-
-
-ovh.request('GET', '/me', function (err, serviceName) {
-  if(err) {
-    console.log(err, serviceName);
-  }
-  else {
-    console.log("My account SMS is " + serviceName);
-
-  }
-});
