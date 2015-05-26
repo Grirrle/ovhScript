@@ -7,9 +7,9 @@ var ops = stdio.getopt({
 });
 
 var async = require('async');
-var telephony = require('./telephony');
-var dedicatedServer = require('./dedicatedServer');
-var xdsl = require('./xdsl');
+var telephony = require('./lib/telephony');
+var dedicatedServer = require('./lib/dedicatedServer');
+var xdsl = require('./lib/xdsl');
 
 if (ops.endpoint && ops.key && ops.secret && ops.consumerKey) {
   var ovh = require('ovh')({
