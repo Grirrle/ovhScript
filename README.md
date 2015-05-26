@@ -22,13 +22,10 @@ $ npm install console.table
 
 ### 2. créer la consomer key
 
-```bash
-$ vi credentials.js
-```
 modifier appKey et appSecret pour mettre les information fournie par ovh
 
 ```bash
-$ node credentials.js
+$ node credentials.js -e ovh-eu -k 'votre api key' -s 'votre api secret key'
 { validationUrl: 'https://api.ovh.com/auth/?credentialToken=XXX',
   consumerKey: 'CK',
   state: 'pendingValidation' }
