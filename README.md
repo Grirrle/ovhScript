@@ -15,6 +15,8 @@ mais globalement il faut :
 ```bash
 $ npm install ovh
 $ npm install async
+$ npm install stdio
+$ npm install console.table
 ```
 
 
@@ -50,6 +52,7 @@ $ node nomDuScript.js
 
 - credentials.js : cree la consumerKey
 - backupReconnect.js : Supprime et recrée les ACL du service de backup pour tous vos serveurs (http://travaux.ovh.net/?do=details&id=13157)
+- checkContact.js :  donne les contact admin, facturation et technique pour les serveur dedie et la telephonie
 
 
 
