@@ -1,0 +1,35 @@
+{
+  "name": "ovhScripy",
+  "version": "0.0.1",
+  "description": "Script for ovh management",
+  "homepage": "https://github.com/Grirrle/ovhScript",
+  "author": "Baptiste Mougel <bmougel@quiddem.com>",
+  "license": "MIT",
+  "keywords": [
+    "OVH",
+    "RunAbove",
+    "API",
+    "REST",
+    "api.ovh.com"
+  ],
+  "main": "./credentials.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Grirrle/ovhScript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Grirrle/ovhScript/issues"
+  },
+  "dependencies": {
+    "async": "0.9.x",
+    "stdio": "0.2.7",
+    "ovh": "1.1.3",
+    "console.table": "0.4.0"
+  },
+  "devDependencies": {
+    "jshint": "latest",
+    "mocha": "latest",
+    "nock": "latest",
+    "istanbul": "latest"
+  }
+}
