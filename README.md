@@ -14,10 +14,7 @@ mais globalement il faut :
 ### 1. installer les package 
 
 ```bash
-$ npm install ovh
-$ npm install async
-$ npm install stdio
-$ npm install console.table
+$ npm install
 ```
 
 
