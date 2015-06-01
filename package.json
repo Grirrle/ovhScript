@@ -1,5 +1,5 @@
 {
-  "name": "ovhScripy",
+  "name": "ovhScript",
   "version": "0.0.1",
   "description": "Script for ovh management",
   "homepage": "https://github.com/Grirrle/ovhScript",
@@ -31,5 +31,8 @@
     "mocha": "latest",
     "nock": "latest",
     "istanbul": "latest"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/jshint lib tests"
   }
 }
