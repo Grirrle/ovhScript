@@ -1,5 +1,6 @@
 [![Node.js Wrapper for OVH APIs](http://ovh.github.io/node-ovh/img/logo.png)](http://ovh.github.io/node-ovh)
 
+[![Build Status](https://api.travis-ci.org/Grirrle/ovhScript.svg)](http://travis-ci.org/Grirrle/ovhScript)
 
 Quelques script pour effectuer des tâches courante via le manager ovh
 
